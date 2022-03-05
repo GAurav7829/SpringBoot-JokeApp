@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Joke App</title>
+</head>
+<body>
+	<h1>Chuck Norris Joke</h1>
+	<p id="showJoke" th:text="${joke}">Show Joke Here...</p>
+	<button onclick="getJoke()">Get Random Joke</button>
+	
+	<script type="text/javascript">
+		function getJoke(){
+			const xhttp = new XMLHttpRequest();
+			  xhttp.onload = function() {
+			    document.getElementById("showJoke").innerHTML = this.responseText;
+			  }
+			  xhttp.open("GET", "/getJoke");
+			  xhttp.send();
+		}
+	</script>
+</body>
+</html>
