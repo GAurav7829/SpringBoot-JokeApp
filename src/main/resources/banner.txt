@@ -1,0 +1,8 @@
+${Ansi.GREEN}       _       _                               
+${Ansi.GREEN}      | |     | |            /\                
+${Ansi.GREEN}      | | ___ | | _____     /  \   _ __  _ __  
+${Ansi.GREEN}  _   | |/ _ \| |/ / _ \   / /\ \ | '_ \| '_ \ 
+${Ansi.GREEN} | |__| | (_) |   <  __/  / ____ \| |_) | |_) |
+${Ansi.GREEN}  \____/ \___/|_|\_\___| /_/    \_\ .__/| .__/ 
+${Ansi.GREEN}                                  | |   | |    
+${Ansi.GREEN}                                  |_|   |_|    Spring Boot${spring-boot.formatted-version}
